@@ -11,13 +11,13 @@ export default function NavBar() {
 
   const { pathname } = useLocation();
   const activeIndicator = (path: string) => {
-    pathname === path
-      ? "text-slate-600 font-semibold border-slate-400 border-b-2"
+    return pathname === path
+      ? "text-slate-300 font-semibold border-slate-200 border-b-2"
       : "";
   };
 
   return (
-    <nav className="text-white flex justify-between items-center p-6 px-8 mt-6 mx-2 md:mx-4 gap-10 fixed left-0 right-0 border border-white/10 bg-black/90 rounded-lg shadow-2xl">
+    <nav className="text-white flex justify-between items-center p-6 px-8 mt-6 mx-2 md:mx-4 gap-10 fixed left-0 right-0 top-0 z-50 border border-white/10 bg-black/90 rounded-lg shadow shadow-slate-900">
       <Link to="/">
         <AudioWaveform className="w-6 h-6 md:w-10 md:h-10 text-xl font-bold" />
       </Link>
@@ -25,19 +25,19 @@ export default function NavBar() {
       <div className="hidden md:flex gap-12 font-poppins font-bold text-sm md:text-lg">
         <Link
           to="/discover"
-          className={`hover:text-slate-400 active:text-slate-500 ${activeIndicator("/discover")}`}
+          className={`hover:text-slate-200 active:text-slate-300 ${activeIndicator("/discover")}`}
         >
           Discover
         </Link>
         <Link
           to="/spotlight"
-          className={`hover:text-slate-400 active:text-slate-500 ${activeIndicator("/spotlight")}`}
+          className={`hover:text-slate-200 active:text-slate-300 ${activeIndicator("/spotlight")}`}
         >
           SpotLight
         </Link>
         <Link
           to="/freshdrops"
-          className={`hover:text-slate-400 active:text-slate-500 ${activeIndicator("/freshdrops")}`}
+          className={`hover:text-slate-200 active:text-slate-400 ${activeIndicator("/freshdrops")}`}
         >
           FreshDrops
         </Link>

@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <>
+    <div className="mx-auto">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />}/>
@@ -17,6 +17,6 @@ export default function App() {
         <Route path="/freshdrops" element={<FreshDrops />}/>
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
