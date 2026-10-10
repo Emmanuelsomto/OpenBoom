@@ -17,7 +17,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="text-white flex justify-between items-center p-6 px-8 mt-6 mx-2 md:mx-4 gap-10 fixed left-0 right-0 top-0 z-50 border border-white/10 bg-black/90 rounded-lg shadow shadow-slate-900">
+    <nav className="text-white flex justify-between items-center p-6 px-8 gap-10 fixed left-0 right-0 top-0 z-50 border border-white/10 bg-black shadow shadow-slate-900">
       <Link to="/">
         <AudioWaveform className="w-6 h-6 md:w-10 md:h-10 text-xl font-bold" />
       </Link>
@@ -51,7 +51,7 @@ export default function NavBar() {
       </button>
 
       {isOpen && (
-        <div className="flex md:hidden flex-col absolute text-left z-50 right-0 px-6 py-8 left-0 top-20 gap-6 mx-2 border border-white/10 shadow-2xl bg-black/80 backdrop-blur-xl rounded-lg">
+        <div className="flex md:hidden flex-col absolute text-left z-50 right-0 px-6 py-8 left-0 top-20 gap-6 mx-2 border border-white/10 shadow-2xl bg-black backdrop-blur-xl rounded-lg">
           <Link
             to="/discover"
             className="hover:text-slate-500 active:text-slate-600 font-medium font-poppins"

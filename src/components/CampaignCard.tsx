@@ -116,8 +116,8 @@ function CampaignCard({ item }: { item: Campaign }) {
 // Main Spotlight Container
 export default function ArtistSpotlight() {
   return (
-    <section className="mx-auto max-w-6xl px-4">
-      <div className="mb-8">
+    <section className="mx-auto max-w-6xl px-4 mt-24">
+      <div className="mb-8 mx-4 md:mx-0">
         <h2 className="text-2xl font-bold text-white">Spotlight Campaigns</h2>
         <p className="text-sm text-slate-400">
           Directly support indie releases

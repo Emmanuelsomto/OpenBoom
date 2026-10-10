@@ -3,10 +3,10 @@ import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer className="flex justify-center items-center flex-col gap-6 mx-6 mt-12 md:mt-16 mb-16">
-      <h2 className="text-slate-400 font-bold text-lg text-center tracking-tighter mx-4">
+      <h2 className="text-slate-400 font-bold text-lg md:text-xl mb-4 text-center tracking-tighter mx-4">
         Fueling the next generation of independent artists.
       </h2>
-      <section className="flex gap-5 sm:gap-8">
+      <section className="flex gap-5 sm:gap-8 mb-4">
         <a
           href="https://x.com/Web3Wanderer9"
           target="_blank"
@@ -32,7 +32,7 @@ export default function Footer() {
         </a>
       </section>
 
-      <p className="text-center font-normal font-lato text-xs md:text-base text-gray-400 tracking-tighter md:tracking-wider">
+      <p className="text-center font-normal font-lato text-xs md:text-sm text-gray-400 tracking-tighter md:tracking-wider">
         &copy;{new Date().getFullYear()} OpenBoom, All Rights Reserved .
       </p>
     </footer>

@@ -4,7 +4,7 @@ import CampaignCard from "../components/CampaignCard";
 
 export default function Home() {
   return (
-    <div className="mt-34 md:mt-40">
+    <div className="mt-28 md:mt-40">
       <section className="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-16 mx-6 mb-12">
         <div className="flex flex-col gap-4">
           <h1 className="font-bold tracking-tight font-poppins text-lg md:text-3xl text-slate-300 tracking-wide">
