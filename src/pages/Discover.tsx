@@ -190,7 +190,7 @@ export default function Discover() {
               type="button"
               key={genre}
               onClick={() => setSelectedGenre(genre)}
-              className={`rounded-xl px-3 py-1.5 text-xs font-semibold transition-all duration-200 ease-out ${
+              className={`rounded-xl cursor-pointer px-3 py-1.5 text-xs font-semibold transition-all duration-200 ease-out ${
                 selectedGenre === genre
                   ? "bg-indigo-600 text-white shadow-md shadow-indigo-600/20"
                   : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700"

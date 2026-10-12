@@ -5,16 +5,18 @@ import Discover from "./pages/Discover";
 import SpotLight from "./pages/SpotLight";
 import FreshDrops from "./pages/FreshDrops";
 import Footer from "./components/Footer";
+import SpotlightPage from "./pages/SpotLight";
 
 export default function App() {
   return (
     <div className="mx-auto">
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/discover" element={<Discover />}/>
-        <Route path="/spotlight" element={<SpotLight />}/>
-        <Route path="/freshdrops" element={<FreshDrops />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/discover" element={<Discover />} />
+        <Route path="/spotlight" element={<SpotLight />} />
+        <Route path="/freshdrops" element={<FreshDrops />} />
+        <Route path="/spotlight/:slug" element={<SpotlightPage />} />
       </Routes>
       <Footer />
     </div>

@@ -33,13 +33,13 @@ export default function NavBar() {
           to="/spotlight"
           className={`hover:text-slate-200 active:text-slate-300 ${activeIndicator("/spotlight")}`}
         >
-          SpotLight
+          Spotlight
         </Link>
         <Link
           to="/freshdrops"
           className={`hover:text-slate-200 active:text-slate-400 ${activeIndicator("/freshdrops")}`}
         >
-          FreshDrops
+          Freshdrops
         </Link>
       </div>
 
