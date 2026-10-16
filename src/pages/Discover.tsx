@@ -163,10 +163,10 @@ export default function Discover() {
   return (
     <div className="max-w-6xl mx-6 text-white mt-28 md:mt-40">
       <section className="flex flex-col gap-2 mb-8">
-        <h1 className="text-lg md:text-3xl font-bold font-poppins text-slate-300">
+        <h1 className="text-xl md:text-3xl font-bold font-poppins text-slate-300">
           Discover Campaigns
         </h1>
-        <p className="mt-1 font-lato font-medium text-xs md:text-sm tracking-tighter text-slate-400">
+        <p className="mt-1 font-lato font-medium text-sm md:text-base tracking-tighter text-slate-400">
           Find and fund upcoming projects from independent creators worldwide.
         </p>
       </section>

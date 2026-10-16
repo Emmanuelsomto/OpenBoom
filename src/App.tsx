@@ -6,6 +6,7 @@ import SpotLight from "./pages/SpotLight";
 import FreshDrops from "./pages/FreshDrops";
 import Footer from "./components/Footer";
 import SpotlightPage from "./pages/SpotLight";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/spotlight/:slug" element={<SpotlightPage />} />
       </Routes>
       <Footer />
+      <Analytics />
     </div>
   );
 }

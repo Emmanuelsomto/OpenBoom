@@ -8,12 +8,12 @@ export default function SpotlightPage() {
   // CASE 1: No slug provided -> Show the list of all tracks
   if (!slug) {
     return (
-      <main className="min-h-screen bg-black text-zinc-100 px-6 py-8 md:px-16 lg:px-24 mt-28">
+      <main className="min-h-screen bg-black text-zinc-100 px-6 md:px-16 lg:px-24 mt-28 md:mt-40">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white mb-2">
+          <h1 className="text-xl md:text-3xl font-bold tracking-tight text-slate-300 mb-2">
             Spotlight Releases
           </h1>
-          <p className="text-zinc-400 mb-8">
+          <p className="text-zinc-400 mb-8 font-lato font-normal text-sm md:text-base">
             Explore curated indie tracks and high-end audio production.
           </p>
 

@@ -21,14 +21,14 @@ export interface DropTrack {
   description: string;
 }
 
-export const freshDrops: DropTrack[] = [
+export const artistData: DropTrack[] = [
   {
     id: "drop-astropilot-solarwalk5",
     title: "Solar Walk V: A Different Scale of Time",
     artist: {
       id: "astro-sphere",
       name: "Astro Sphere",
-      avatarUrl: "https://f4.bcbits.com/img/0031536378_21.jpg",
+      avatarUrl: "https://f4.bcbits.com/img/0031536378_10.jpg",
       location: "Ukraine / Ambient Producer",
       bio: "Electronic ambient composer crafting deep space textures, chillout rhythms, and immersive soundscapes.",
       socials: {
@@ -48,7 +48,7 @@ export const freshDrops: DropTrack[] = [
     artist: {
       id: "Lo-Fi-resistance",
       name: "Lo-Fi Resistance",
-      avatarUrl: "https://f4.bcbits.com/img/0014919296_21.jpg",
+      avatarUrl: "https://f4.bcbits.com/img/0014919296_10.jpg",
       location: "Alt-Rock / Art Rock",
       bio: "Progressive and alt-rock project led by McStine Featuring collaborators from King Crimson, Porcupine Tree, and King's X.",
       socials: {
@@ -68,7 +68,7 @@ export const freshDrops: DropTrack[] = [
     artist: {
       id: "modular",
       name: "Modular",
-      avatarUrl: "https://f4.bcbits.com/img/0000732194_21.jpg",
+      avatarUrl: "https://f4.bcbits.com/img/0000732194_10.jpg",
       location: "Argentina",
       bio: "Argentine duo blending nostalgic 60s space-pop, lounge grooves, and analog synthesizer soundscapes.",
       socials: {
@@ -88,7 +88,7 @@ export const freshDrops: DropTrack[] = [
     artist: {
       id: "phonk-records",
       name: "PHONK! Records",
-      avatarUrl: "https://f4.bcbits.com/img/0019025677_21.jpg",
+      avatarUrl: "https://f4.bcbits.com/img/0019025677_10.jpg",
       location: "Berlin, Germany",
       bio: "Berlin-based electronic record label founded by Brazilian artists Anne Gelfei and David Merlino",
       socials: {
@@ -108,7 +108,7 @@ export const freshDrops: DropTrack[] = [
     artist: {
       id: "dj-rap",
       name: "DJ Rap",
-      avatarUrl: "https://f4.bcbits.com/img/0013359651_21.jpg",
+      avatarUrl: "https://f4.bcbits.com/img/0013359651_10.jpg",
       location: "UK",
       bio: "Charissa Saverio (DJ Rap) is a pioneer in drum & bass and jungle music, turnablist, and founder of Propa Talent",
       socials: {
@@ -128,7 +128,7 @@ export const freshDrops: DropTrack[] = [
     artist: {
       id: "marina-herlop",
       name: "Marina Helop",
-      avatarUrl: "https://f4.bcbits.com/img/0045844530_21.jpg",
+      avatarUrl: "https://f4.bcbits.com/img/0045844530_10.jpg",
       location: "Barcelona, Spain",
       bio: "Barcelona-based classically trained pianist and avant-garde composer blending experimental electronics with intricate vocal textures.",
       socials: {
